@@ -35,17 +35,29 @@
 		
 		<!-- Mapeo de Resources y clases-->
 	
+		<mapping class="model.ManyToManyBidi.Category"/>
+		<mapping class="model.ManyToManyBidi.Item"/>
+	
+		
+	
+	<!--  
+	
+	<mapping class="model.asociacionBidi.Bid"/> 
+		<mapping class="model.asociacionBidi.Item"/>
+	
+		<mapping class="model.Embeddable2.User"/>
+		<mapping class="model.Embeddable2.ContactAddress"/> 	
+	
+	
 	  	<mapping class="model.Embeddable.Person"/>
 		<mapping class="model.Embeddable.Phone"/>   
+	
 	
 		<mapping class="model.OneToManyEmbeddable.Address"/>
 		<mapping class="model.OneToManyEmbeddable.User"/>
 		<mapping class="model.OneToManyEmbeddable.Shipment"/> 
 		
-		<mapping class="model.Embeddable2.User"/>
-		<mapping class="model.Embeddable2.ContactAddress"/> 	
 	
-	<!--
 	
 		<mapping class="model.OneToOneForeignKey2.User"/>
 		<mapping class="model.OneToOneForeignKey2.Address"/>
@@ -71,9 +83,7 @@
 
 	
 		
-    	<mapping class="model.asociacionBidi.Bid"/> 
-		<mapping class="model.asociacionBidi.Item"/>
-		
+    	
 		
 		<mapping class="model.OneToOneSharedPrimaryKey.User"/>
 		<mapping class="model.OneToOneSharedPrimaryKey.Address"/>
@@ -95,11 +105,8 @@
 		
 
 	
-		<mapping class="model.ManyToManyBidi.Category"/>
-		<mapping class="model.ManyToManyBidi.Item"/>
-
--->	
 	
 	
+	-->
 	</session-factory>
 </hibernate-configuration>
